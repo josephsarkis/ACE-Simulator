@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACE Simulator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Roboto+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <h1>ACE Simulator</h1>
+
+    <div class="container">
+        <div class="main-grid">
+            <!-- Team List -->
+            <div class="team-list" id="teamList">
+                <!-- Teams will be injected here by JS -->
+            </div>
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <div class="summary-item">
+                    <span class="summary-label">Total Shares</span>
+                    <span class="summary-value" id="totalShares">0</span>
+                </div>
+                <div class="summary-item">
+                    <span class="summary-label">Total Cost</span>
+                    <span class="summary-value highlight-cost" id="totalCost">$0.00</span>
+                </div>
+
+                <button class="btn-clear" id="clearBtn">Clear all Shares</button>
+                <button class="btn-simulate" id="simulateBtn" disabled>Run Simulation</button>
+
+                <div style="margin-top: 1rem; font-size: 0.8rem; color: #64748b;">
+                    *Select shares to enable simulation.
+                    <br>
+                    *Large number of teams (>10) may take time.
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <div class="results-section" id="resultsSection">
+            <h2>Simulation Results</h2>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="summary-label">Expected Value (Mean)</div>
+                    <div class="stat-value" id="resExpectedValue" style="color: #cbd5e1;">$0.00</div>
+                </div>
+                <div class="stat-card">
+                    <div class="summary-label">Max Possible Loss</div>
+                    <div class="stat-value" id="resMaxLoss" style="color: var(--danger-color);">$0.00</div>
+                </div>
+                <div class="stat-card">
+                    <div class="summary-label">Max Possible Profit</div>
+                    <div class="stat-value" id="resMaxProfit" style="color: var(--success-color);">$0.00</div>
+                </div>
+                <div class="stat-card">
+                    <div class="summary-label">Probability of Profit</div>
+                    <div class="stat-value" id="resProbProfit">0%</div>
+                </div>
+            </div>
+
+            <canvas id="distributionChart"></canvas>
+        </div>
+    </div>
+
+    <!-- Data and Script -->
+    <script src="teams_data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

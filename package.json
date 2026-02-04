@@ -1,0 +1,14 @@
+{
+    "name": "ace-simulator",
+    "version": "1.0.0",
+    "description": "Premier League Betting Simulator",
+    "scripts": {
+        "start": "serve ."
+    },
+    "dependencies": {
+        "serve": "^14.2.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
