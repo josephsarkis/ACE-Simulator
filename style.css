@@ -44,10 +44,14 @@ h1 {
     /* Slightly narrower for conciseness */
     display: flex;
     flex-direction: column;
+    align-items: stretch;
+    /* Force children to full width */
     gap: 2rem;
 }
 
 .main-grid {
+    width: 100%;
+    /* Ensure full width */
     display: grid;
     grid-template-columns: 1fr 300px;
     gap: 2rem;
