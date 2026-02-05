@@ -60,6 +60,45 @@ h1 {
     }
 }
 
+@media (max-width: 600px) {
+    body {
+        padding: 0.5rem;
+        /* Reduce padding on mobile to max space */
+    }
+
+    .container {
+        gap: 1rem;
+    }
+
+    .team-card {
+        padding: 0.75rem 0.5rem;
+        /* Tighter padding */
+        gap: 0.5rem;
+        grid-template-columns: 32px 1fr auto auto;
+        /* Smaller logo space */
+    }
+
+    .team-logo {
+        width: 32px;
+        height: 32px;
+    }
+
+    .team-name {
+        font-size: 0.85rem;
+    }
+
+    .stats-grid {
+        /* Allow smaller columns on mobile so 2 can fit side-by-side */
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 0.75rem;
+    }
+
+    .results-section,
+    .sidebar {
+        padding: 1.5rem 1rem;
+    }
+}
+
 /* Team List */
 .team-list {
     display: flex;
