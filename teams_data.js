@@ -1,6 +1,9 @@
 const TEAMS_DATA = [
     {
         "name": "AFC Bournemouth",
+        "logo": "https://resources.premierleague.com/premierleague/badges/t91.png",
+        "opponent": "Aston Villa FC",
+        "opponent_short": "AVL",
         "price": 4.81,
         "win_prob": 0.345252774352651,
         "lose_prob": 0.3884093711467324,
@@ -10,6 +13,9 @@ const TEAMS_DATA = [
     },
     {
         "name": "Arsenal FC",
+        "logo": "https://resources.premierleague.com/premierleague/badges/t3.png",
+        "opponent": "Sunderland AFC",
+        "opponent_short": "SUN",
         "price": 10.21,
         "win_prob": 0.762188444522318,
         "lose_prob": 0.07748915852643566,
@@ -19,6 +25,9 @@ const TEAMS_DATA = [
     },
     {
         "name": "Aston Villa FC",
+        "logo": "https://resources.premierleague.com/premierleague/badges/t7.png",
+        "opponent": "AFC Bournemouth",
+        "opponent_short": "BOU",
         "price": 8.79,
         "win_prob": 0.3884093711467324,
         "lose_prob": 0.345252774352651,
@@ -28,6 +37,9 @@ const TEAMS_DATA = [
     },
     {
         "name": "Brentford FC",
+        "logo": "https://resources.premierleague.com/premierleague/badges/t94.png",
+        "opponent": "Newcastle United FC",
+        "opponent_short": "NEW",
         "price": 4.45,
         "win_prob": 0.2457791309161362,
         "lose_prob": 0.498200941046222,
@@ -37,6 +49,9 @@ const TEAMS_DATA = [
     },
     {
         "name": "Brighton & Hove Albion FC",
+        "logo": "https://resources.premierleague.com/premierleague/badges/t36.png",
+        "opponent": "Crystal Palace FC",
+        "opponent_short": "CRY",
         "price": 4.25,
         "win_prob": 0.47646057855927393,
         "lose_prob": 0.25808281338627337,
@@ -46,6 +61,9 @@ const TEAMS_DATA = [
     },
     {
         "name": "Burnley FC",
+        "logo": "https://resources.premierleague.com/premierleague/badges/t90.png",
+        "opponent": "West Ham United FC",
+        "opponent_short": "WHU",
         "price": 1.4,
         "win_prob": 0.2860022170714502,
         "lose_prob": 0.4323289327824247,
@@ -55,6 +73,9 @@ const TEAMS_DATA = [
     },
     {
         "name": "Chelsea FC",
+        "logo": "https://resources.premierleague.com/premierleague/badges/t8.png",
+        "opponent": "Wolverhampton Wanderers FC",
+        "opponent_short": "WOL",
         "price": 6.36,
         "win_prob": 0.5468942289008356,
         "lose_prob": 0.21471597901418485,
@@ -64,6 +85,9 @@ const TEAMS_DATA = [
     },
     {
         "name": "Crystal Palace FC",
+        "logo": "https://resources.premierleague.com/premierleague/badges/t31.png",
+        "opponent": "Brighton & Hove Albion FC",
+        "opponent_short": "BRI",
         "price": 3.26,
         "win_prob": 0.25808281338627337,
         "lose_prob": 0.47646057855927393,
@@ -73,6 +97,9 @@ const TEAMS_DATA = [
     },
     {
         "name": "Everton FC",
+        "logo": "https://resources.premierleague.com/premierleague/badges/t11.png",
+        "opponent": "Fulham FC",
+        "opponent_short": "FUL",
         "price": 5.42,
         "win_prob": 0.2552721430006025,
         "lose_prob": 0.4482827877083752,
@@ -82,6 +109,9 @@ const TEAMS_DATA = [
     },
     {
         "name": "Fulham FC",
+        "logo": "https://resources.premierleague.com/premierleague/badges/t54.png",
+        "opponent": "Everton FC",
+        "opponent_short": "EVE",
         "price": 4.56,
         "win_prob": 0.4482827877083752,
         "lose_prob": 0.2552721430006025,
@@ -91,6 +121,9 @@ const TEAMS_DATA = [
     },
     {
         "name": "Leeds United FC",
+        "logo": "https://resources.premierleague.com/premierleague/badges/t2.png",
+        "opponent": "Nottingham Forest FC",
+        "opponent_short": "NFO",
         "price": 3.65,
         "win_prob": 0.4248366013071895,
         "lose_prob": 0.2875816993464052,
@@ -100,6 +133,9 @@ const TEAMS_DATA = [
     },
     {
         "name": "Liverpool FC",
+        "logo": "https://resources.premierleague.com/premierleague/badges/t14.png",
+        "opponent": "Manchester City FC",
+        "opponent_short": "MCI",
         "price": 5.89,
         "win_prob": 0.40399918384003264,
         "lose_prob": 0.3378902264843909,
@@ -109,6 +145,9 @@ const TEAMS_DATA = [
     },
     {
         "name": "Manchester City FC",
+        "logo": "https://resources.premierleague.com/premierleague/badges/t43.png",
+        "opponent": "Liverpool FC",
+        "opponent_short": "LIV",
         "price": 8.12,
         "win_prob": 0.3378902264843909,
         "lose_prob": 0.40399918384003264,
@@ -118,6 +157,9 @@ const TEAMS_DATA = [
     },
     {
         "name": "Manchester United FC",
+        "logo": "https://resources.premierleague.com/premierleague/badges/t1.png",
+        "opponent": "Tottenham Hotspur FC",
+        "opponent_short": "TOT",
         "price": 8.77,
         "win_prob": 0.5728314238952538,
         "lose_prob": 0.20621931260229137,
@@ -127,6 +169,9 @@ const TEAMS_DATA = [
     },
     {
         "name": "Newcastle United FC",
+        "logo": "https://resources.premierleague.com/premierleague/badges/t4.png",
+        "opponent": "Brentford FC",
+        "opponent_short": "BRE",
         "price": 4.31,
         "win_prob": 0.498200941046222,
         "lose_prob": 0.2457791309161362,
@@ -136,6 +181,9 @@ const TEAMS_DATA = [
     },
     {
         "name": "Nottingham Forest FC",
+        "logo": "https://resources.premierleague.com/premierleague/badges/t17.png",
+        "opponent": "Leeds United FC",
+        "opponent_short": "LEE",
         "price": 3.14,
         "win_prob": 0.2875816993464052,
         "lose_prob": 0.4248366013071895,
@@ -145,6 +193,9 @@ const TEAMS_DATA = [
     },
     {
         "name": "Sunderland AFC",
+        "logo": "https://resources.premierleague.com/premierleague/badges/t56.png",
+        "opponent": "Arsenal FC",
+        "opponent_short": "ARS",
         "price": 5.41,
         "win_prob": 0.07748915852643566,
         "lose_prob": 0.762188444522318,
@@ -154,6 +205,9 @@ const TEAMS_DATA = [
     },
     {
         "name": "Tottenham Hotspur FC",
+        "logo": "https://resources.premierleague.com/premierleague/badges/t6.png",
+        "opponent": "Manchester United FC",
+        "opponent_short": "MUN",
         "price": 3.67,
         "win_prob": 0.20621931260229137,
         "lose_prob": 0.5728314238952538,
@@ -163,6 +217,9 @@ const TEAMS_DATA = [
     },
     {
         "name": "West Ham United FC",
+        "logo": "https://resources.premierleague.com/premierleague/badges/t21.png",
+        "opponent": "Burnley FC",
+        "opponent_short": "BUR",
         "price": 2.59,
         "win_prob": 0.4323289327824247,
         "lose_prob": 0.2860022170714502,
@@ -172,6 +229,9 @@ const TEAMS_DATA = [
     },
     {
         "name": "Wolverhampton Wanderers FC",
+        "logo": "https://resources.premierleague.com/premierleague/badges/t39.png",
+        "opponent": "Chelsea FC",
+        "opponent_short": "CHE",
         "price": 0.94,
         "win_prob": 0.21471597901418485,
         "lose_prob": 0.5468942289008356,

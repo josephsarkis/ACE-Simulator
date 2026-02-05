@@ -14,8 +14,22 @@ document.addEventListener('DOMContentLoaded', () => {
         const card = document.createElement('div');
         card.className = 'team-card';
         card.innerHTML = `
-            <div class="team-name">${team.name}</div>
+            <img src="${team.logo}" alt="${team.name} Logo" class="team-logo" onerror="this.src='https://via.placeholder.com/32'">
+            
+            <div class="team-info">
+                <div class="team-header">
+                    <span class="team-name">${team.name}</span>
+                    <span class="team-opponent">vs ${team.opponent_short}</span>
+                </div>
+                <div class="team-probs">
+                    <span class="prob-win">W: ${(team.win_prob * 100).toFixed(0)}%</span>
+                    <span class="prob-draw">D: ${(team.draw_prob * 100).toFixed(0)}%</span>
+                    <span class="prob-loss">L: ${(team.lose_prob * 100).toFixed(0)}%</span>
+                </div>
+            </div>
+
             <div class="team-price">$${team.price.toFixed(2)}</div>
+            
             <div class="share-input-group">
                 <input type="number" min="0" class="share-input" data-team="${team.name}" placeholder="0">
                 <span>Shares</span>
