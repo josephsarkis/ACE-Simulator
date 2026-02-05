@@ -101,6 +101,12 @@ h1 {
     .sidebar {
         padding: 1.5rem 1rem;
     }
+
+    .sidebar {
+        position: static;
+        /* Disable sticky on mobile to prevent overlap */
+        z-index: 1;
+    }
 }
 
 /* Team List */
