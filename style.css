@@ -298,6 +298,8 @@ h1 {
 .results-section {
     width: 100%;
     /* Full width in container */
+    grid-column: 1 / -1;
+    /* Span full width of the grid */
     background-color: var(--card-bg);
     border-radius: 16px;
     padding: 2rem;
