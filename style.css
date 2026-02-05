@@ -103,6 +103,22 @@ h1 {
         /* Prevent overflow */
     }
 
+    .team-probs {
+        flex-wrap: wrap;
+        /* Allow stats to wrap if tight */
+        gap: 0.5rem;
+    }
+
+    .share-input-group span {
+        display: none;
+        /* Hide "Shares" text on mobile to save space */
+    }
+
+    .share-input {
+        width: 45px;
+        /* Smaller input width */
+    }
+
     .stats-grid {
         /* Allow smaller columns on mobile so 2 can fit side-by-side */
         grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
