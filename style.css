@@ -64,9 +64,11 @@ h1 {
     }
 
     .sidebar {
-        position: static;
-        /* Disable sticky on mobile/tablet to prevent overlap */
+        position: static !important;
+        /* Force disable sticky */
         z-index: 1;
+        box-shadow: none;
+        /* Remove shadow to prevent visual overlap */
     }
 }
 
@@ -95,6 +97,10 @@ h1 {
 
     .team-name {
         font-size: 0.85rem;
+        white-space: normal;
+        /* Allow wrapping */
+        overflow-wrap: break-word;
+        /* Prevent overflow */
     }
 
     .stats-grid {
