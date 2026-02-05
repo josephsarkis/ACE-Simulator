@@ -87,8 +87,8 @@ h1 {
         padding: 0.75rem 0.5rem;
         /* Tighter padding */
         gap: 0.5rem;
-        grid-template-columns: 32px 1fr auto auto;
-        /* Smaller logo space */
+        grid-template-columns: 32px minmax(0, 1fr) auto auto;
+        /* Smaller logo space, constrain text width */
     }
 
     .team-logo {
