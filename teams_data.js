@@ -240,3 +240,4 @@ const TEAMS_DATA = [
         "lose_loss": 0.085
     }
 ];
+const MATCHDAY = "27";
