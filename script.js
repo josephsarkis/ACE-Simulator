@@ -9,6 +9,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // State
     let cart = {}; // { teamName: quantity }
 
+    // Update Title with Matchday
+    if (typeof MATCHDAY !== 'undefined' && MATCHDAY !== "Unknown") {
+        const titleEl = document.querySelector('h1');
+        if (titleEl) {
+            titleEl.textContent = `ACE Simulator - Premier League Matchday ${MATCHDAY}`;
+        }
+        document.title = `ACE Simulator - Matchday ${MATCHDAY}`;
+    }
+
     // Render Teams
     TEAMS_DATA.forEach(team => {
         const card = document.createElement('div');
