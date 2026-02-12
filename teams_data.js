@@ -5,11 +5,11 @@ const TEAMS_DATA = [
         "opponent": "West Ham United FC",
         "opponent_short": "WHU",
         "price": 5.4,
-        "win_prob": 0,
-        "lose_prob": 0,
-        "draw_prob": 1,
-        "win_gain": 0,
-        "lose_loss": 0
+        "win_prob": 0.37113402061855666,
+        "lose_prob": 0.37113402061855666,
+        "draw_prob": 0.2577319587628867,
+        "win_gain": 0.273,
+        "lose_loss": 0.54
     },
     {
         "name": "Arsenal FC",
@@ -17,11 +17,11 @@ const TEAMS_DATA = [
         "opponent": "Tottenham Hotspur FC",
         "opponent_short": "TOT",
         "price": 10.75,
-        "win_prob": 0,
-        "lose_prob": 0,
-        "draw_prob": 1,
-        "win_gain": 0,
-        "lose_loss": 0
+        "win_prob": 0.5938779909463247,
+        "lose_prob": 0.1607566285837465,
+        "draw_prob": 0.24536538046992884,
+        "win_gain": 0.29700000000000004,
+        "lose_loss": 1.075
     },
     {
         "name": "Aston Villa FC",
@@ -29,11 +29,11 @@ const TEAMS_DATA = [
         "opponent": "Leeds United FC",
         "opponent_short": "LEE",
         "price": 9.18,
-        "win_prob": 0,
-        "lose_prob": 0,
-        "draw_prob": 1,
-        "win_gain": 0,
-        "lose_loss": 0
+        "win_prob": 0.5290254704654596,
+        "lose_prob": 0.21380937028049754,
+        "draw_prob": 0.25716515925404293,
+        "win_gain": 0.396,
+        "lose_loss": 0.918
     },
     {
         "name": "Brentford FC",
@@ -41,11 +41,11 @@ const TEAMS_DATA = [
         "opponent": "Brighton & Hove Albion FC",
         "opponent_short": "BRI",
         "price": 4.88,
-        "win_prob": 0,
-        "lose_prob": 0,
-        "draw_prob": 1,
-        "win_gain": 0,
-        "lose_loss": 0
+        "win_prob": 0.4423305588585018,
+        "lose_prob": 0.2996432818073722,
+        "draw_prob": 0.258026159334126,
+        "win_gain": 0.34500000000000003,
+        "lose_loss": 0.488
     },
     {
         "name": "Brighton & Hove Albion FC",
@@ -53,11 +53,11 @@ const TEAMS_DATA = [
         "opponent": "Brentford FC",
         "opponent_short": "BRE",
         "price": 3.45,
-        "win_prob": 0,
-        "lose_prob": 0,
-        "draw_prob": 1,
-        "win_gain": 0,
-        "lose_loss": 0
+        "win_prob": 0.2996432818073722,
+        "lose_prob": 0.4423305588585018,
+        "draw_prob": 0.258026159334126,
+        "win_gain": 0.488,
+        "lose_loss": 0.34500000000000003
     },
     {
         "name": "Burnley FC",
@@ -65,11 +65,11 @@ const TEAMS_DATA = [
         "opponent": "Chelsea FC",
         "opponent_short": "CHE",
         "price": 1.63,
-        "win_prob": 0,
-        "lose_prob": 0,
-        "draw_prob": 1,
-        "win_gain": 0,
-        "lose_loss": 0
+        "win_prob": 0.09375,
+        "lose_prob": 0.75,
+        "draw_prob": 0.15625,
+        "win_gain": 0.646,
+        "lose_loss": 0.163
     },
     {
         "name": "Chelsea FC",
@@ -77,11 +77,11 @@ const TEAMS_DATA = [
         "opponent": "Burnley FC",
         "opponent_short": "BUR",
         "price": 6.46,
-        "win_prob": 0,
-        "lose_prob": 0,
-        "draw_prob": 1,
-        "win_gain": 0,
-        "lose_loss": 0
+        "win_prob": 0.75,
+        "lose_prob": 0.09375,
+        "draw_prob": 0.15625,
+        "win_gain": 0.163,
+        "lose_loss": 0.646
     },
     {
         "name": "Crystal Palace FC",
@@ -89,11 +89,11 @@ const TEAMS_DATA = [
         "opponent": "Wolverhampton Wanderers FC",
         "opponent_short": "WOL",
         "price": 3.31,
-        "win_prob": 0,
-        "lose_prob": 0,
-        "draw_prob": 1,
-        "win_gain": 0,
-        "lose_loss": 0
+        "win_prob": 0.574915973819211,
+        "lose_prob": 0.18627277551742438,
+        "draw_prob": 0.23881125066336462,
+        "win_gain": 0.085,
+        "lose_loss": 0.331
     },
     {
         "name": "Everton FC",
@@ -101,11 +101,11 @@ const TEAMS_DATA = [
         "opponent": "Manchester United FC",
         "opponent_short": "MUN",
         "price": 5.29,
-        "win_prob": 0,
-        "lose_prob": 0,
-        "draw_prob": 1,
-        "win_gain": 0,
-        "lose_loss": 0
+        "win_prob": 0.2654566080544526,
+        "lose_prob": 0.47646057855927393,
+        "draw_prob": 0.2580828133862735,
+        "win_gain": 0.9140000000000001,
+        "lose_loss": 0.529
     },
     {
         "name": "Fulham FC",
@@ -113,11 +113,11 @@ const TEAMS_DATA = [
         "opponent": "Sunderland AFC",
         "opponent_short": "SUN",
         "price": 3.7,
-        "win_prob": 0,
-        "lose_prob": 0,
-        "draw_prob": 1,
-        "win_gain": 0,
-        "lose_loss": 0
+        "win_prob": 0.3518723876140919,
+        "lose_prob": 0.36876226221956837,
+        "draw_prob": 0.2793653501663398,
+        "win_gain": 0.438,
+        "lose_loss": 0.37000000000000005
     },
     {
         "name": "Leeds United FC",
@@ -125,11 +125,11 @@ const TEAMS_DATA = [
         "opponent": "Aston Villa FC",
         "opponent_short": "AVL",
         "price": 3.96,
-        "win_prob": 0,
-        "lose_prob": 0,
-        "draw_prob": 1,
-        "win_gain": 0,
-        "lose_loss": 0
+        "win_prob": 0.21380937028049754,
+        "lose_prob": 0.5290254704654596,
+        "draw_prob": 0.25716515925404293,
+        "win_gain": 0.918,
+        "lose_loss": 0.396
     },
     {
         "name": "Liverpool FC",
@@ -137,11 +137,11 @@ const TEAMS_DATA = [
         "opponent": "Nottingham Forest FC",
         "opponent_short": "NFO",
         "price": 5.79,
-        "win_prob": 0,
-        "lose_prob": 0,
-        "draw_prob": 1,
-        "win_gain": 0,
-        "lose_loss": 0
+        "win_prob": 0.5050057588376008,
+        "lose_prob": 0.24913617435988308,
+        "draw_prob": 0.2458580668025161,
+        "win_gain": 0.28300000000000003,
+        "lose_loss": 0.5790000000000001
     },
     {
         "name": "Manchester City FC",
@@ -149,11 +149,11 @@ const TEAMS_DATA = [
         "opponent": "Newcastle United FC",
         "opponent_short": "NEW",
         "price": 9.12,
-        "win_prob": 0,
-        "lose_prob": 0,
-        "draw_prob": 1,
-        "win_gain": 0,
-        "lose_loss": 0
+        "win_prob": 0.638987403693286,
+        "lose_prob": 0.1672985202396967,
+        "draw_prob": 0.1937140760670173,
+        "win_gain": 0.42100000000000004,
+        "lose_loss": 0.9119999999999999
     },
     {
         "name": "Manchester United FC",
@@ -161,11 +161,11 @@ const TEAMS_DATA = [
         "opponent": "Everton FC",
         "opponent_short": "EVE",
         "price": 9.14,
-        "win_prob": 0,
-        "lose_prob": 0,
-        "draw_prob": 1,
-        "win_gain": 0,
-        "lose_loss": 0
+        "win_prob": 0.47646057855927393,
+        "lose_prob": 0.2654566080544526,
+        "draw_prob": 0.2580828133862735,
+        "win_gain": 0.529,
+        "lose_loss": 0.9140000000000001
     },
     {
         "name": "Newcastle United FC",
@@ -173,11 +173,11 @@ const TEAMS_DATA = [
         "opponent": "Manchester City FC",
         "opponent_short": "MCI",
         "price": 4.21,
-        "win_prob": 0,
-        "lose_prob": 0,
-        "draw_prob": 1,
-        "win_gain": 0,
-        "lose_loss": 0
+        "win_prob": 0.1672985202396967,
+        "lose_prob": 0.638987403693286,
+        "draw_prob": 0.1937140760670173,
+        "win_gain": 0.9119999999999999,
+        "lose_loss": 0.42100000000000004
     },
     {
         "name": "Nottingham Forest FC",
@@ -185,11 +185,11 @@ const TEAMS_DATA = [
         "opponent": "Liverpool FC",
         "opponent_short": "LIV",
         "price": 2.83,
-        "win_prob": 0,
-        "lose_prob": 0,
-        "draw_prob": 1,
-        "win_gain": 0,
-        "lose_loss": 0
+        "win_prob": 0.24913617435988308,
+        "lose_prob": 0.5050057588376008,
+        "draw_prob": 0.2458580668025161,
+        "win_gain": 0.5790000000000001,
+        "lose_loss": 0.28300000000000003
     },
     {
         "name": "Sunderland AFC",
@@ -197,11 +197,11 @@ const TEAMS_DATA = [
         "opponent": "Fulham FC",
         "opponent_short": "FUL",
         "price": 4.38,
-        "win_prob": 0,
-        "lose_prob": 0,
-        "draw_prob": 1,
-        "win_gain": 0,
-        "lose_loss": 0
+        "win_prob": 0.36876226221956837,
+        "lose_prob": 0.3518723876140919,
+        "draw_prob": 0.2793653501663398,
+        "win_gain": 0.37000000000000005,
+        "lose_loss": 0.438
     },
     {
         "name": "Tottenham Hotspur FC",
@@ -209,11 +209,11 @@ const TEAMS_DATA = [
         "opponent": "Arsenal FC",
         "opponent_short": "ARS",
         "price": 2.97,
-        "win_prob": 0,
-        "lose_prob": 0,
-        "draw_prob": 1,
-        "win_gain": 0,
-        "lose_loss": 0
+        "win_prob": 0.1607566285837465,
+        "lose_prob": 0.5938779909463247,
+        "draw_prob": 0.24536538046992884,
+        "win_gain": 1.075,
+        "lose_loss": 0.29700000000000004
     },
     {
         "name": "West Ham United FC",
@@ -221,11 +221,11 @@ const TEAMS_DATA = [
         "opponent": "AFC Bournemouth",
         "opponent_short": "BOU",
         "price": 2.73,
-        "win_prob": 0,
-        "lose_prob": 0,
-        "draw_prob": 1,
-        "win_gain": 0,
-        "lose_loss": 0
+        "win_prob": 0.37113402061855666,
+        "lose_prob": 0.37113402061855666,
+        "draw_prob": 0.2577319587628867,
+        "win_gain": 0.54,
+        "lose_loss": 0.273
     },
     {
         "name": "Wolverhampton Wanderers FC",
@@ -233,11 +233,11 @@ const TEAMS_DATA = [
         "opponent": "Crystal Palace FC",
         "opponent_short": "CRY",
         "price": 0.85,
-        "win_prob": 0,
-        "lose_prob": 0,
-        "draw_prob": 1,
-        "win_gain": 0,
-        "lose_loss": 0
+        "win_prob": 0.18627277551742438,
+        "lose_prob": 0.574915973819211,
+        "draw_prob": 0.23881125066336462,
+        "win_gain": 0.331,
+        "lose_loss": 0.085
     }
 ];
 const MATCHDAY = "27";
